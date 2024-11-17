@@ -31,7 +31,6 @@ public class ChristmasDelight implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
-//		ModItemGroups.registerItemGroups();
 
 		ModBoatTypes.registerModBoatTypes();
 		ModFlammableBlocks.registerFlammableBlocks();

@@ -14,15 +14,6 @@ import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
 import vectorwing.farmersdelight.common.item.ConsumableItem;
 import vectorwing.farmersdelight.common.registry.ModEffects;
-//if anyone new to modding (like me) is reading this that wants
-//to farmers delight effects to their modded food you also,
-//in addition to importing (above), have to
-//add code in repositories{} and dependencies{} in build.graddle
-//You can find what exactly to paste either in this mod
-//or Farmers Delight Refabricated GitHub main page
-
-
-
 
 public class ModFoodComponents {
 

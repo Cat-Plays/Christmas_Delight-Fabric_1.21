@@ -21,11 +21,13 @@ repositories {
 			name = 'TerraformersMC'
 			url = 'https://maven.terraformersmc.com/'
 		}
+
+
 	maven {
 		name = "Greenhouse Maven"
 		url = 'https://repo.greenhouse.house/releases/'
 	}
-	maven { url "https://mvn.devos.one/releases/" } // Porting Lib
+//  maven { url "https://mvn.devos.one/releases/" } // Porting Lib
 	maven {
 		name = "Greenhouse Maven (Snapshots)" // Temporary Porting Lib Fork for 1.21
 		url = 'https://repo.greenhouse.house/snapshots/'
@@ -36,6 +38,7 @@ repositories {
 			excludeGroup "io.github.fabricators_of_create"
 		}
 	}
+
 }
 
 fabricApi {
@@ -43,7 +46,6 @@ fabricApi {
 }
 
 dependencies {
-	// To change the versions see the gradle.properties file
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
 	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
@@ -53,7 +55,7 @@ dependencies {
 
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	modImplementation("vectorwing:FarmersDelight:1.21.1-2.2.2+refabricated") {
+	modImplementation("vectorwing:FarmersDelight:${fdrf_version}") {
 		exclude(group: "net.fabricmc")
 	}
 
