@@ -18,19 +18,19 @@ import vectorwing.farmersdelight.common.registry.ModEffects;
 public class ModFoodComponents {
 
     public static void registerItems() {
-        ModFood.Eggnog = consumableEffect("eggnog", 6, 0.375f, StatusEffects.SPEED, 40, 4, 16,Items.GLASS_BOTTLE, 1.0f);
+        ModFood.Eggnog = consumableEffect("eggnog", 6, 0.375f, StatusEffects.SPEED, 40, 4, 64,null, 1.0f);
 
-        ModFood.Logcake = consumable("logcake", 20, 0.0f, 16, Items.BOWL);
+        ModFood.Logcake = consumable("logcake", 20, 0.0f, 64, null);
 
-        ModFood.Lamington = consumable("lamington", 5, 0.375f, 16, Items.BOWL);
+        ModFood.Lamington = consumable("lamington", 5, 0.375f, 64, null);
 
         ModFood.Candy_Cane = consumableEffectSnack("candy_cane", 1, 0.0f, StatusEffects.HASTE, 5400, 1, 64, null, 0.1f);
 
-        ModFood.Chicken_With_Mlinci = consumableEffect("chicken_with_mlinci", 14, 0.7f, ModEffects.NOURISHMENT, 6000, 0, 16, Items.BOWL, 1.0f);
+        ModFood.Chicken_With_Mlinci = consumableEffect("chicken_with_mlinci", 14, 0.7f, ModEffects.NOURISHMENT, 6000, 0, 64, null, 1.0f);
 
-        ModFood.Makos_Bejgli = consumable("makos_bejgli", 6, 0.33f, 16, Items.BOWL);
+        ModFood.Makos_Bejgli = consumable("makos_bejgli", 6, 0.33f, 64, null);
 
-        ModFood.Hot_Chocolate = consumableEffect("hot_chocolate", 6, 0.375f, StatusEffects.SPEED, 40, 4, 16,Items.GLASS_BOTTLE, 1.0f);
+        ModFood.Hot_Chocolate = consumableEffect("hot_chocolate", 6, 0.375f, StatusEffects.SPEED, 40, 4, 64,null, 1.0f);
 
         ModFood.Christmas_Pudding = consumableEffect("christmas_pudding", 7, 0.45f, ModEffects.COMFORT, 2400, 0, 64, null, 1.0f);
 
@@ -42,9 +42,9 @@ public class ModFoodComponents {
 
         ModFood.Vanillekipferl = consumableSnack("vanillekipferl", 3, 0.225f, 64, null);
 
-        ModFood.Cheese_Yogurt_With_Berries = consumable("cheese_yogurt", 8, 0.375f, 16, Items.GLASS_BOTTLE);
+        ModFood.Cheese_Yogurt_With_Berries = consumable("cheese_yogurt", 8, 0.375f, 64, null);
 
-        ModFood.Cevapi_With_Lepinja = consumableEffect("cevapi_with_lepinja", 15, 0.85f, ModEffects.NOURISHMENT, 6000, 0,16, Items.BOWL, 1.0f);
+        ModFood.Cevapi_With_Lepinja = consumableEffect("cevapi_with_lepinja", 15, 0.85f, ModEffects.NOURISHMENT, 6000, 0,64, null, 1.0f);
 
         ModFood.Fritule = consumableSnack("fritule", 5, 0.275f, 64, null);
 
