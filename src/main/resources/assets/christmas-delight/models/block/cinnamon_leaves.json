@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/leaves",
+  "textures": {
+    "all": "christmas-delight:block/cinnamon_leaves"
+  }
+}

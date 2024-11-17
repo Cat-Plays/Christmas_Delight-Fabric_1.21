@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "group": "gingerbreads",
+  "pattern": [
+    "G  ",
+    "   ",
+    "   "
+  ],
+  "key": {
+    "G": {
+      "item": "christmas-delight:baked_gingerbread_dough"
+    }
+  },
+  "result": {
+    "id": "christmas-delight:gingerbread_star"
+  }
+}

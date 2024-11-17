@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": {
+    "item": "christmas-delight:gingerbread_dough"
+  },
+  "result": {
+    "id": "christmas-delight:baked_gingerbread_dough"
+  },
+  "experience": 1,
+  "cookingtime": 100
+}

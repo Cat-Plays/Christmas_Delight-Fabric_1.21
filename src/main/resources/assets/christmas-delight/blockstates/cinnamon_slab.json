@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "christmas-delight:block/cinnamon_slab"
+    },
+    "type=double": {
+      "model": "christmas-delight:block/cinnamon_planks"
+    },
+    "type=top": {
+      "model": "christmas-delight:block/cinnamon_slab_top"
+    }
+  }
+}

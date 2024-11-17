@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "christmas-delight:gingerbread_dough"
+  },
+  "result": {
+    "id": "christmas-delight:baked_gingerbread_dough"
+  },
+  "experience": 1,
+  "cookingtime": 45
+}

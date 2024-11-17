@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "christmas-delight",
+	"version": "1.0",
+	"name": "Christmas Delight",
+	"description": "Adds mostly Christmas related recipes.",
+	"authors": [
+		"Cat_plays_"
+	],
+	"contact": {
+		"homepage": "placeholder",
+		"sources": "placeholder"
+	},
+	"license": "MIT",
+	"icon": "assets/christmas-delight/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.cat_plays_.christmas_delight.ChristmasDelight"
+		],
+		"fabric-datagen": [
+			"net.cat_plays_.christmas_delight.ChristmasDelightDataGenerator"
+		],
+		"client": [
+			"net.cat_plays_.christmas_delight.ChristmasDelightClient"
+		]
+	},
+	"mixins": [
+		"christmas-delight.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*",
+		"terraform-wood-api-v1": ">=10.0.0",
+		"farmersdelight": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
